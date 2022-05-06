@@ -3,7 +3,7 @@
 ---
 ## Instruções para a realização do projeto:
 
-1. Entre no repositório aqui mencionado (https://github.com/reprograma/On10-TodasEmTech-JavascriptII).
+1. Entre no repositório aqui mencionado (https://github.com/reprograma/On17-TodasEmTech-JavascriptI).
 
 2. **Forkem o repositório para a conta pessoal de vocês**.
 
@@ -62,7 +62,7 @@ Vocês estão atuando como *freelancers* em um projeto para uma biblioteca.
 
 O cliente pediu para que vocês desenvolvessem uma página onde é possível **(i)** inserir informações relevantes sobre novos livros adquiridos pela biblioteca, e **(ii)** visualizar as informações dos livros que foram inseridos anteriormente no sistema.
 
-O cliente forneceu um array - `let books` - que contém alguns títulos que eles deseja ver exibidos na tela;
+O cliente forneceu um array - `let books` - que contém alguns títulos que ele deseja ver exibidos na tela;
 
 ## 2. Detalhes Técnicos do Projeto:
 
