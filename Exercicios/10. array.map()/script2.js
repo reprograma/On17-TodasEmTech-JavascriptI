@@ -1,4 +1,4 @@
-const winners = [
+/* const winners = [
     {
         nome: 'Equipe Maravilinda',
         pais: 'Canadá',
@@ -21,5 +21,13 @@ const paises = winners.map(function(local) {
     return local.pais
 })
 
-console.log(paises);
+console.log(paises); */
 
+
+const nomes = ['Ellie', 'Bárbara', 'Mariana', 'Lara', 'Gisele']
+
+nomes.map((nome)=>{
+    if(nome === 'Bárbara') {
+        return console.log(`Olá ${nome}`);
+    }
+})

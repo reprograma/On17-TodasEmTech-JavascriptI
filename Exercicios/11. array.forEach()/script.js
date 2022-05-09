@@ -1,14 +1,5 @@
 const numbers = [65, 44, 12, 4, 68];
 
-/* let sum = 0;
-
-numbers.forEach((numero) => {
-    sum += numero;
-})
-
-console.log(sum); */
-
-
 const usuarios = [
     {user:234, name: 'Marcia', idade:40 },
     {user:235, name: 'Lorena', idade:20 },
@@ -18,16 +9,13 @@ const usuarios = [
     {user:239, name: 'Pietra', idade:23 }
 ]
 
-/* const somaIdades = [];
 
-usuarios.forEach(function(itens) {
-    somaIdades.push(itens.idade);
-}) */
+const notas = [ 8.5, 9, 10, 7.5];
 
-let somarIdade = 0;
+let somaNotas = 0;
 
-usuarios.forEach((usuario) => {
-    somarIdade += usuario.idade;
-})
+notas.forEach((valorAtual) => {
+    somaNotas += valorAtual;
+});
 
-console.log(somarIdade);
+console.log(somaNotas);

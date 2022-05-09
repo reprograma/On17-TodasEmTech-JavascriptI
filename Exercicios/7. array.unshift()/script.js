@@ -1,8 +1,12 @@
 const listagemDeFrutas = [ "Uva", "Banana", "Manga", "Cajá", "Pinha", "Maçã", "Melão"];
 
-/* listagemDeFrutas.unshift('Taperebá', 'Cupuaçu', 'Muruci');
+console.log(listagemDeFrutas.length);
 
-console.log(listagemDeFrutas) */
+listagemDeFrutas.unshift('Taperebá', 'Cupuaçu', 'Muruci');
+
+console.log(listagemDeFrutas.length);
+
+console.log(listagemDeFrutas);
 
 const usuarios = [
     {user:234, name: 'Marcia', idade:40 },

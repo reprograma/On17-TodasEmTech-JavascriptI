@@ -1,8 +1,8 @@
 const listagemDeFrutas = [ "Uva", "Banana", "Manga", "Cajá", "Pinha", "Maçã", "Melão"];
 
-/* listagemDeFrutas.shift();
+listagemDeFrutas.shift();
 
-console.log(listagemDeFrutas); */
+console.log(listagemDeFrutas);
 
 const usuarios = [
     {user:234, name: 'Marcia', idade:40 },
@@ -15,5 +15,5 @@ const usuarios = [
 
 usuarios.shift();
 
-console.log(usuarios);
+console.log(usuarios.length);
 

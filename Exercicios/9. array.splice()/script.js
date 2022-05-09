@@ -1,8 +1,12 @@
-const countryList = [ "Argentina","Armenia","Australia","Azerbaijan","Bahamas","Brazil","Burkina Faso", "Costa Rica","Mauritania","St Vincent","Uganda","United Arab Emirates","Uruguay","Uzbekistan","Venezuela"];
-/* 
-countryList.splice(2, 1);
+const listaDePaises = ['Argentina', 'Brasil', 'Mexico', 'EUA', 'Paraguai', 'Chile', 'Russia', 'Canadá'];
 
-console.log(countryList); */
+//const paisesSelecionados = listaDePaises.slice(2,3);
+
+//listaDePaises.splice(5,2);
+
+//listaDePaises.splice(6,1, "Uzbequistão", "Honduras");
+
+//console.log(listaDePaises);
 
 const usuarios = [
     {user:234, name: 'Marcia', idade:40 },
@@ -13,10 +17,6 @@ const usuarios = [
     {user:239, name: 'Pietra', idade:23 }
 ]
 
-usuarios.splice(0, 1, {
-    user: 233,
-    name: 'Juliane',
-    idade: 26,
-})
+usuarios.splice(1,1, {user: 235, name: 'Paula', idade: 45});
 
-console.log(usuarios)
+console.log(usuarios);
