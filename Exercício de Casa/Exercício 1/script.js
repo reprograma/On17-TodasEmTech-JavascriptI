@@ -48,3 +48,18 @@ const books = [
         published: "2014-04-07T00:00:00.000Z",
     }
 ]
+
+function formatData(published) {
+  return  published.substring(0, 10)
+    
+}
+
+
+for(let contador = 0; contador < books.length; contador++) {
+    if (books[contador]) {
+        console.log(`Titulo: ${books[contador].title} \nAutor: ${books[contador].author} \nData de Publicação: ${formatData(books[contador].published)}`);
+    }
+    
+}
+
+
