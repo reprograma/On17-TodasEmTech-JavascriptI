@@ -48,3 +48,14 @@ const books = [
         published: "2014-04-07T00:00:00.000Z",
     }
 ]
+
+function exibirInformacoesDeLivros(objeto) {
+    const livrosfiltrados = objeto.map((item) => [
+        `title:${item.title}`,
+        `author:${item.author}`,
+        `publish:${item.published}`,
+    ]);
+    console.log(livrosfiltrados)
+}
+exibirInformacoesDeLivros(books)
+
