@@ -6,3 +6,4 @@ function getMinMax(array){
 }
 
 getMinMax([1, 382, 3, 123, 444, 9, 12]);
+
