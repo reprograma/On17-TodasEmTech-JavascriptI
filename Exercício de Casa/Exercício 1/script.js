@@ -49,7 +49,7 @@ const books = [
     }
 ]
 
-function exibirInformacoesDeLivros(objeto) {
+/*function exibirInformacoesDeLivros(objeto) {
     const livrosfiltrados = objeto.map((item) => [
         `title:${item.title}`,
         `author:${item.author}`,
@@ -57,5 +57,9 @@ function exibirInformacoesDeLivros(objeto) {
     ]);
     console.log(livrosfiltrados)
 }
-exibirInformacoesDeLivros(books)
+exibirInformacoesDeLivros(books)*/
 
+for (let i = 0; i < books.length; i++) {
+    const livro = books[i];
+    console.log(`o nome do livro é ${livro.title}, o autor é ${livro.author}, a data de publicação é ${new Date (livro.published)} ` ) 
+}
