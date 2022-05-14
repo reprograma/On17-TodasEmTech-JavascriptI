@@ -70,17 +70,3 @@ function removerObjeto(objeto){
     console.log(objeto)
 }
 removerObjeto(books);
-
-3. /* **Opcional:** Criar uma função que trate as datas salvas na chave `published`, 
-trazendo no `console.log()` os valores contendo apenas as datas no formato `pt-br`. 
-
-function
-formatandoData(objeto){
-objeto.forEach(({
- pulished}) => { data = published.replace("T00:00:00:00Z","");
- data.split("-".reverse().join("/"));
- return 
- console.log(dataptbr);
-});
-}
-formatandoData(books);*/
