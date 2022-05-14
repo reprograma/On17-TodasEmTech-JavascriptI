@@ -47,4 +47,19 @@ const books = [
         author: "Glenn Block, et al.",
         published: "2014-04-07T00:00:00.000Z",
     }
-]
+];
+
+const textoResultado = books.map((livro) => {
+    console.log(`O livro número ${livro.isbn} cujo autor se chama ${livro.author} publicado em ${livro.published}`)
+});
+
+// exercício splice
+
+books.splice(4, 1, {
+    isbn: "9781788623872",
+    title: "Learning JavaScript Data Structures and Algorithms",
+    author: "Loiane Groner",
+    published: "2018-04-26T00:00:00.000Z",
+});
+
+console.log(books);
