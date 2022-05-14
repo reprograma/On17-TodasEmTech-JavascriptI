@@ -83,14 +83,3 @@ function dateFormat(obj) {
 }
 
 dateFormat(books);
-
-function removendoEsubstituindo(objeto) {
-  objeto.splice(5, 1, {
-    isbn: "9781788623872",
-    title: "Learning JavaScript Data Structures and Algorithms",
-    author: "Loiane Groner",
-    published: "2018-04-26T00:00:00.000Z",
-  });
-  return console.log(objeto);
-}
-removendoEsubstituindo(books);
