@@ -48,3 +48,39 @@ let books = [
         published: "2014-04-07T00:00:00.000Z",
     }
 ]
+
+books.splice(5, 1, {
+    isbn: "9781788623872",
+    title: "Learning JavaScript Data Structures and Algorithms",
+    author: "Loiane Groner",
+    published: "2018-04-26T00:00:00.000Z",
+});
+
+
+function printToConsole(print) {
+    result = books.map(({ title, author, published }) => {
+        return { title, author, published };
+    });
+    console.log("Todos os livros cadastrados até o momento: ");
+    console.table(result);
+}
+
+printToConsole(books);
+
+/* Formatação de datas:
+
+function dateBR(arrBooks) {
+    arrBooks.forEach((thing) =>
+      console.log(thing.published.slice(0, 10).split("-").reverse().join("/"))
+    );
+  }
+
+  dateBR(books);
+
+Infelizmente não descobri como fazer a formatação funcionar dentro do console.table(). =(
+    
+  */
+
+
+
+
