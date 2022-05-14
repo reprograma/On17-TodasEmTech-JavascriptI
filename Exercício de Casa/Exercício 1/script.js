@@ -48,3 +48,121 @@ const books = [
         published: "2014-04-07T00:00:00.000Z",
     }
 ]
+
+// console.log(books[1]);
+
+// console.log(books[2]);
+
+// console.log(books[3]);
+
+// console.log(books[4]);
+
+// let minhaNovaArray = []
+
+
+// books.forEach((book, index) => {
+//     const newBook = {
+//         title: book.title,
+//         author: book.author,
+        
+//     }
+//     minhaNovaArray.push(newBook)
+
+// } )
+
+// console.log(minhaNovaArray)
+
+
+let MyNewArray = books.map(book => {
+    const newBook = {
+                title: book.title,
+                author: book.author,
+                published: book.published
+    }
+    return newBook
+})
+
+
+
+console.log(MyNewArray)
+
+
+
+const meuNovoObjeto = { 
+    isbn: "9781788623872",
+    title: "Learning JavaScript Data Structures and Algorithms",
+    author: "Loiane Groner",
+    published: "2018-04-26T00:00:00.000Z",
+ }
+
+
+books.splice(4, 1, meuNovoObjeto)
+
+console.log(books)
+
+
+
+
+// function funcaoQueFazAlgo(item){
+//     console.log(item)
+// }
+// funcaoQueFazAlgo("DENISE")
+
+
+// let minhaFuncao = (book) => {
+//     console
+// }
+
+// minhaFuncao()
+
+
+// function minhaFuncao2(){
+
+// }
+
+// minhaFuncao2()
+
+
+
+
+// books.map
+// books.filter
+
+
+
+// books.forEach(book => {
+//     console.log(book);
+//     console.log("=============");
+// }) 
+
+
+
+// function maiorEmenor(minhaArray){
+//     // let numeroMaiorInicial = 0;
+//     let numeroMenorInicial = 0;
+
+//     minhaArray.forEach(numeroCorrent => {
+
+
+//         // if(numeroCorrent > numeroMaiorInicial){
+//         //     numeroMaiorInicial = numeroCorrent
+//         // }
+
+
+
+//         if(numeroCorrent < numeroMenorInicial){
+//             numeroMenorInicial = numeroCorrent
+//         }
+
+
+//     });
+
+//     console.log(numeroMaiorInicial)
+
+
+// }
+
+
+
+// maiorEmenor([0, 23, 14, 36, 96, 87])
+
