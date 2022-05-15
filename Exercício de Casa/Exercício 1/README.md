@@ -4,6 +4,7 @@ Com base no array `books`, vocês devem:
 
 1. Criar uma função que exiba no `console.log()` as propriedades `título`, `autor` e `published`. *OBS:* pense sobre a exibição dos dados. O que é mais válido ao usuário: dispor essas apenas essas informações na tela, ou trazê-las de forma organizada?
 
+
 2. Criar uma função que remova o objeto localizado no quinto index, colocando no lugar o seguinte objeto:
 
    ```JavaScript
