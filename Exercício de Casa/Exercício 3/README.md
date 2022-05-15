@@ -13,3 +13,6 @@
    ```
 
 2. **Opcional:** Criar uma função que encontre a frequência de um elemento `string` dentro de um array composto de apenas elementos `string`.
+
+
+forEach
