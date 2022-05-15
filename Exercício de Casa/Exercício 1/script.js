@@ -48,3 +48,21 @@ const books = [
         published: "2014-04-07T00:00:00.000Z",
     }
 ]
+
+const someInformations = books.map((book) => ({
+    title: book.title,
+    author: book.author,
+    published: book.published,    
+}));
+
+console.log(someInformations);
+
+let change = books.splice(5, 1, {
+    isbn: "9781788623872",
+      title: "Learning JavaScript Data Structures and Algorithms",
+      author: "Loiane Groner",
+      published: "2018-04-26T00:00:00.000Z",
+}); 
+
+console.log(books);
+console.log(change);
