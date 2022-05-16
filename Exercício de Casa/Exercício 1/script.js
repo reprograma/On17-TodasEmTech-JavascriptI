@@ -1,4 +1,4 @@
-const books = [
+let books = [
     {
         isbn: "9781593275846",
         title: "Eloquent JavaScript, Second Edition",
@@ -48,3 +48,29 @@ const books = [
         published: "2014-04-07T00:00:00.000Z",
     }
 ]
+
+    function exibirInformacoes(objeto){
+    const livrosParaExibir = objeto.map((item)=>[
+       `title:${item.title}`,
+       "author:" + '' + item.author,
+       `published:${item.published}`,
+    ])
+    console.log(livrosParaExibir)
+    }
+
+    exibirInformacoes(books)
+
+    //2a questão//
+
+    function livroRemovido(objeto){
+    let removed = objeto.splice (5, 1, {
+            isbn: "9781788623872", 
+            title: "Learning JavaScript Data Structures and Algorithms",
+            author: "Loiane Groner",
+            published: "2018-04-26T00:00:00.000Z",
+    });
+    console.log(removed);
+    }
+    
+    livroRemovido (books)
+   
