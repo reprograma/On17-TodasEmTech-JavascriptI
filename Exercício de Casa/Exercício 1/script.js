@@ -52,29 +52,29 @@ const books = [
 //Exercios
 //1
 
-// function bookInformaticion(books) {
-//   const newArray = books.map((item) => {
-//     return [`Title:${item.title}`,
-//   `Author:${item.author}`,
-// `Published:${item.published}`];
-//   });
-//  // console.log(newArray);
-// }
-// bookInformaticion(books);
+function bookInformaticion(books) {
+  const newArray = books.map((item) => {
+    return [`Title:${item.title}`,
+  `Author:${item.author}`,
+`Published:${item.published}`];
+  });
+ // console.log(newArray);
+}
+bookInformaticion(books);
 
 //2
 
-// function removeObject(books) {
-//   let newArray2 = books.splice(5, 1, {
-//     isbn: "9781788623872",
-//     title: "Learning JavaScript Data Structures and Algorithms",
-//     author: "Loiane Groner",
-//     published: "2018-04-26T00:00:00.000Z",
-//   });
-//   console.log(newArray2);
-// }
-// removeObject(books);
-// console.log(books)
+function removeObject(books) {
+  let newArray2 = books.splice(5, 1, {
+    isbn: "9781788623872",
+    title: "Learning JavaScript Data Structures and Algorithms",
+    author: "Loiane Groner",
+    published: "2018-04-26T00:00:00.000Z",
+  });
+  console.log(newArray2);
+}
+removeObject(books);
+console.log(books)
 
 //3
 
