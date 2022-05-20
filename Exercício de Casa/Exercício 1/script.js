@@ -48,3 +48,42 @@ const books = [
         published: "2014-04-07T00:00:00.000Z",
     }
 ]
+
+// Resolução do Exercício número 1 
+function listOfBooks(object) {
+    const listaDeLivros = object.map(({ title, author, published }) => {
+        return { title, author, published }
+    });
+
+    console.log(livrosMapeados);
+}
+// Chamando a função do exercício 1
+listOfBooks(books);
+
+
+// Exercício número 2
+function removeAndSwitch(object) {
+    
+    object.splice(5, 1, {
+        isbn: "9781788623872",
+        title: "Learning JavaScript Data Structures and Algorithms",
+        author: "Loiane Groner",
+        published: "2018-04-26T00:00:00.000Z",
+    });
+
+    return console.log(object);
+
+}
+// Chamando a função do exercício 2
+removeAndSwitch(books);
+
+// Resolução Exercício 3
+function formatDate(object) {
+    object.forEach(({ published }) => {
+        const dataToConvert = published.replace("T00:00:00.000Z", "");
+        const dataPtBR = dataToConvert.split("-").reverse().join("/");
+        return console.log(dataPtBR);
+    });
+}
+// Chamando a função do exercício 3
+formatDate(books);
