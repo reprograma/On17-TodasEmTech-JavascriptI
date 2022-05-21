@@ -1,8 +1,8 @@
-/* const result = myFunction(4, 3);
+const result = myFunction(4, 3);
 
 function myFunction(a, b) {
   return a * b;
-} */
+} 
 
 /* function somaDoisValores(primeiroValor, segundoValor) {
   const soma = primeiroValor + segundoValor;
@@ -10,18 +10,28 @@ function myFunction(a, b) {
 } */
 
 
-/* const somaDoisValores = (primeiroValor, segundoValor) => {
-  return primeiroValor + segundoValor;
-}
-
-console.log(somaDoisValores(5, 4));  */
+/*   */
 
 
-function hello() {
+/*function hello() {
   return console.log('Hello!');
 }
 
-hello();
+hello();*/
+
+/* ARROW FUNCTIONS:
+
+- outro jeito de se declarar uma função
+- uma expressão arrow function possui uma sintaxe mais curta
+quando comparada a uma expressão de função
+
+const somaDoisValores = (primeiroValor, segundoValor) => {
+  return primeiroValor + segundoValor;
+}
+
+console.log(somaDoisValores(5, 4)); */
+
+
 
 
 
