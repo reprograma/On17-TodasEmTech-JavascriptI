@@ -48,3 +48,8 @@ const books = [
         published: "2014-04-07T00:00:00.000Z",
     }
 ]
+
+books.title;
+books.author;
+books.published;
+console.log('The book names is ' + [books.title])

@@ -1,3 +1,19 @@
+/* 
+ESTRUTURA DE DADOS:
+
+É um meio de coletar e organizar informações de
+uma certa forma onde os dados se mantenham coesos, e seja
+possível realizar operações com essas informações
+de um jeito efetivo.
+
+- ARRAYS:
+Estrutura de dados que contêm uma lista ordenada de elementos.
+Você pode declarar um array de variáveis do que
+declarar 3 variáveis diferentes.
+
+*/
+
+
 /* const listagemDeFrutas = ["Uva", "Banana", "Manga", "Cajá", "Pinha", "Maçã", "Melão"];
 
 console.log(listagemDeFrutas.length);
@@ -30,7 +46,7 @@ console.log(sobrinhosDaVivian[1]['caracteristicas-especiais']);
 console.log(sobrinhosDaVivian[1].castrado); */
 
 
-const listagemDeFrutas = ["Uva", "Banana", "Manga", "Cajá", "Pinha", "Maçã", "Melão"];
+/*const listagemDeFrutas = ["Uva", "Banana", "Manga", "Cajá", "Pinha", "Maçã", "Melão"];
 
 for(let fruta = 0; fruta < listagemDeFrutas.length; fruta++) {
    console.log(`A minha fruta é ${listagemDeFrutas[fruta]}`);
@@ -51,5 +67,12 @@ for(let contador = 0; contador < usuarios.length; contador++) {
     } else {
         console.log(usuarios[contador].name, usuarios[contador].idade)
     }
-}
+}*/
+
+const listagemDeFrutas = ["Uva", "Banana", "Manga", "Cajá", "Pinha", "Maçã", "Melão"];
+const coisasVariadas = ["Vivian, 0, true"];
+
+console.log(coisasVariadas[0]);
+
+/* A posição de um elemento no array é chamada de index*/
 
