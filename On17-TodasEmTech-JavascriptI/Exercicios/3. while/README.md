@@ -1,1 +1,0 @@
-Exiba no console.log todos os números que forem inferiores a 5.
