@@ -48,3 +48,40 @@ const books = [
         published: "2014-04-07T00:00:00.000Z",
     }
 ]
+
+// Exercício 1
+
+function dadosLivros(objeto) {
+const filtroLivros = objeto.map(({ title, author, published }) => {
+return { title, author, published };
+});
+console.log(filtroLivros);
+}
+
+propriedadesLivros(books);
+
+// Exercicio 2
+
+function substituirObjeto(objeto) {
+objeto.splice(5, 1, {
+isbn: "9781788623872",
+title: "Learning JavaScript Data Structures and Algorithms",
+author: "Loiane Groner",
+published: "2018-04-26T00:00:00.000Z",
+});
+return console.log(objeto);
+}
+
+substituirObjeto(books);
+
+// Exercício 3
+
+function dataPortugues(objeto) {
+objeto.forEach(({ published }) => {
+data = published.replace("T00:00:00.000Z", "");
+dataBrasil = data.split("-").reverse().join("/");
+return console.log(dataBrasil);
+});
+}
+
+dataPortugues(books);
