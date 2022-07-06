@@ -9,20 +9,8 @@ function myFunction(a, b) {
   return console.log(soma);
 } */
 
-
-/* const somaDoisValores = (primeiroValor, segundoValor) => {
+ const somaDoisValores = (primeiroValor, segundoValor) => {
   return primeiroValor + segundoValor;
-}
+} 
 
-console.log(somaDoisValores(5, 4));  */
-
-
-function hello() {
-  return console.log('Hello!');
-}
-
-hello();
-
-
-
-
+console.log(somaDoisValores(5, 4)); 
